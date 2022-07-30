@@ -21,9 +21,11 @@ public class TestaOperadores {
 
         //Ponto flutuante
         double e = 30.0;
+        System.out.println(e);
         float f = 40.3f;
+        System.out.println(f);
         double g = 40.30f;
-
+        System.out.println(g);
         f = a;
         f = b;
         f = c;
@@ -31,6 +33,7 @@ public class TestaOperadores {
 
         ArrayList<String> lista = new ArrayList<String>();
         List<String> lista2 = lista; 
+        System.out.println(lista2);
 
 
         
